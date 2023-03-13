@@ -10,7 +10,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.34</version>
+            <version>8.0.17</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -42,7 +42,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<release>11</release>
+					<release>1.8</release>
 				</configuration>
 			</plugin>
             </plugins>
