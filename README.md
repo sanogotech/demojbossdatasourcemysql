@@ -92,7 +92,8 @@ After running above command you should see the module.xml generated in the follo
 
 Now create DataSource:
 ```
-[standalone@localhost:9990 /] /subsystem=datasources/jdbc-driver=mysql/:add(driver-module-name=com.mysql.driver,driver-name=mysql,jdbc-compliant=false,driver-class-name=com.mysql.jdbc.Driver)
+[standalone@localhost:9990 /] 
+    /subsystem=datasources/jdbc-driver=mysql/:add(driver-module-name=com.mysql.driver,driver-name=mysql,jdbc-compliant=false,driver-class-name=com.mysql.cj.jdbc.Driver)
     ```
 {"outcome" => "success"} 
 
