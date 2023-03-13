@@ -40,7 +40,7 @@ You can download with this link :
 Download : mysql-connector-java-8.0.17.jar
 
 https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar
-```
+
 
 And then put the file under WILDFLY_HOME\modules\system\layers\base\com\mysql\main
 
