@@ -66,12 +66,12 @@ If the folders didn't exist, create it by yourself.
 
 Open WILDFLY_HOME\standalone\configuration\standalone.xml, and then find <drivers> tag, inside that tag, put these lines to add MySQL driver:
 
-```
+
 <driver name="mysql" module="com.mysql">
  <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
  <xa-datasource-class>com.mysql.cj.jdbc.MysqlXADataSource</xa-datasource-class>
 </driver>
-```
+
 
 Now you can restart Wildfly and expect that new driver will be inside the available list driver.
 
