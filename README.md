@@ -44,11 +44,11 @@ https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.17/mysql-connector
 
 And then put the file under WILDFLY_HOME\modules\system\layers\base\com\mysql\main
 
-2. Create a file "module.xml"
+2. Create a file  module.xml
 
 Using any kind of text editor, create file inside your Wildfly path, WILDFLY_HOME\modules\system\layers\base\com\mysql\main, and this is the XML file contents of it:
 
-```
+```xml
 <module name="com.mysql" xmlns="urn:jboss:module:1.5">
     <resources>
         <resource-root path="mysql-connector-java-8.0.17.jar">
