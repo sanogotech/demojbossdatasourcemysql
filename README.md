@@ -79,13 +79,15 @@ Now you can restart Wildfly and expect that new driver will be inside the availa
 
 Try creating the Module itself using the   jboss-cli.sh command rather than manually writing the module.xml file. This is because when we use some text editors, they might append some hidden chars to our files. (Specially when we do a copy & paste in such editors)
 
-[standalone@localhost:9990 /]  module add --name=com.mysql.driver  --dependencies=javax.api,javax.transaction.api --resources=/PATH/TO/mysql-connector-java-5.1.35.jar
+[standalone@localhost:9990 /]  module add --name=com.mysql.driver  --dependencies=javax.api,javax.transaction.api --resources=/PATH/TO/mysql-connector-java-8.0.17.jar
 
 [standalone@localhost:9990 /] :reload
+
 {
     "outcome" => "success",
     "result" => undefined
 }
+
 After running above command you should see the module.xml generated in the following location:  "wildfly-8.2.1.Final/modules/com/mysql/driver/main/module.xml"
 
 Now create DataSource:
