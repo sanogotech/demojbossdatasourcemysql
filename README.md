@@ -1,3 +1,8 @@
+
+## Sample code
+- https://github.com/sanogotech/demojbossdatasourcemysql
+
+
 ## Docs
 
 - [View the guide](https://www.squins.com/knowledge/jboss-cli-mysql-datasource-howto/)
