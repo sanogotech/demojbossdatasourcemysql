@@ -48,7 +48,7 @@ And then put the file under WILDFLY_HOME\modules\system\layers\base\com\mysql\ma
 
 Using any kind of text editor, create file inside your Wildfly path, WILDFLY_HOME\modules\system\layers\base\com\mysql\main, and this is the XML file contents of it:
 
-```xml
+
 <module name="com.mysql" xmlns="urn:jboss:module:1.5">
     <resources>
         <resource-root path="mysql-connector-java-8.0.17.jar">
@@ -58,7 +58,7 @@ Using any kind of text editor, create file inside your Wildfly path, WILDFLY_HOM
         <module name="javax.transaction.api">
     </module></module></dependencies>
 </module>
-```
+
 
 If the folders didn't exist, create it by yourself.
 
