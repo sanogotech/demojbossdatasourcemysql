@@ -32,7 +32,7 @@ public class DataSourceServlet extends HttpServlet {
 		try {
 	        Context initContext = new InitialContext();
 			envContext = (Context) initContext.lookup("java:comp/env");
-			dataSource = (DataSource) envContext.lookup("java:/jdbc/books-database");
+			dataSource = (DataSource) envContext.lookup("java:/jboss/datasources/books-database");
 		} catch (NamingException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
