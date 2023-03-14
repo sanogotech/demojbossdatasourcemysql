@@ -114,7 +114,7 @@ To check if the driver installation was successful, run the following command:
 Sample application that uses a Datasouce in Wildfly.
 
 
-data-source add --name=books-datasource --jndi-name=java:/jdbc/books-database --driver-name=mysql-connector-java-8.0.17.jar --connection-url=jdbc:mysql://127.0.0.1:3306/books --user-name=root --password=
+data-source add --name=books-datasource --jndi-name=java:/jboss/datasources/books-database --driver-name=mysql-connector-java-8.0.17.jar --connection-url=jdbc:mysql://127.0.0.1:3306/books --user-name=root --password=
 
 
 To check whether the datasource is able to connect to the database, run the following command:
